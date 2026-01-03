@@ -1,4 +1,4 @@
-# ��� CRM System - Frontend
+# CRM System - Frontend
 
 > Sistema CRM profesional construido con React 19, TypeScript, Vite y Tailwind CSS
 
@@ -7,7 +7,7 @@
 [![Vite](https://img.shields.io/badge/Vite-7.2-purple.svg)](https://vitejs.dev)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-cyan.svg)](https://tailwindcss.com)
 
-## ��� Inicio Rápido (3 pasos)
+## Inicio Rápido (3 pasos)
 
 ```bash
 # 1. Instalar dependencias
@@ -24,19 +24,19 @@ npm run dev
 
 ## ✨ Características
 
-- ⚡ **Vite** - Build tool ultra rápido con HMR
-- ⚛️ **React 19** - Última versión de React
-- ��� **TypeScript** - Tipado estático para mayor seguridad
-- ��� **Tailwind CSS** - Estilos utilitarios configurados
-- ��� **Autenticación** - Sistema completo con Context API
-- ��� **Dashboard** - Panel con métricas y estadísticas
-- ��� **Gestión de Clientes** - CRUD completo
-- ��� **Leads & Tasks** - Seguimiento y gestión
-- ��� **Componentes** - 9 componentes reutilizables
-- ��� **Custom Hooks** - Lógica compartida
-- ��� **Servicios API** - Cliente HTTP modular
-- ��� **TypeScript** - Tipos definidos
-- ���️ **Utilidades** - Format, Validation, Helpers
+-  **Vite** - Build tool ultra rápido con HMR
+-  **React 19** - Última versión de React
+-  **TypeScript** - Tipado estático para mayor seguridad
+-  **Tailwind CSS** - Estilos utilitarios configurados
+-  **Autenticación** - Sistema completo con Context API
+-  **Dashboard** - Panel con métricas y estadísticas
+-  **Gestión de Clientes** - CRUD completo
+-  **Leads & Tasks** - Seguimiento y gestión
+-  **Componentes** - 9 componentes reutilizables
+-  **Custom Hooks** - Lógica compartida
+-  **Servicios API** - Cliente HTTP modular
+-  **TypeScript** - Tipos definidos
+-  **Utilidades** - Format, Validation, Helpers
 
 ## ��� Estructura del Proyecto
 
@@ -54,7 +54,7 @@ src/
 └── config/             # Constants, Environment
 ```
 
-## ��� Componentes Disponibles
+## Componentes Disponibles
 
 ### Componentes Comunes
 - **Button** - 4 variantes con loading state
@@ -68,7 +68,7 @@ src/
 - **Header** - Barra superior con info de usuario
 - **Sidebar** - Navegación lateral
 
-## ��� Servicios API
+## Servicios API
 
 ```typescript
 // Autenticación
@@ -82,7 +82,7 @@ await customerService.update(id, data);
 await customerService.delete(id);
 ```
 
-## ��� Custom Hooks
+## Custom Hooks
 
 ```typescript
 // Hook de autenticación
@@ -95,7 +95,7 @@ const { data, loading, error, refetch } = useFetch(fetchFn);
 const [value, setValue] = useLocalStorage('key', initialValue);
 ```
 
-## ��� Scripts Disponibles
+## Scripts Disponibles
 
 ```bash
 npm run dev       # Desarrollo (puerto 3000)
@@ -104,7 +104,7 @@ npm run preview   # Preview del build
 npm run lint      # Ejecutar ESLint
 ```
 
-## ��� Documentación
+## Documentación
 
 - **[INSTALL.md](INSTALL.md)** - Guía completa de instalación
 - **[QUICKSTART.md](QUICKSTART.md)** - Inicio rápido de 5 minutos
@@ -113,13 +113,13 @@ npm run lint      # Ejecutar ESLint
 - **[ARCHITECTURE.md](ARCHITECTURE.md)** - Arquitectura del sistema
 - **[STRUCTURE.md](STRUCTURE.md)** - Resumen de archivos creados
 
-## ��� Variables de Entorno
+## Variables de Entorno
 
 ```env
 VITE_API_BASE_URL=http://localhost:3000/api
 ```
 
-## ��� Tecnologías
+## Tecnologías
 
 - **Frontend**: React 19.2, TypeScript 5.9
 - **Build Tool**: Vite 7.2
@@ -129,7 +129,7 @@ VITE_API_BASE_URL=http://localhost:3000/api
 - **Validación**: Utilidades personalizadas
 - **Formateo**: Intl API
 
-## ��� Dependencias Principales
+## Dependencias Principales
 
 ```json
 {
@@ -141,7 +141,7 @@ VITE_API_BASE_URL=http://localhost:3000/api
 }
 ```
 
-## ���️ Configuración
+## Configuración
 
 ### Path Aliases
 El proyecto usa \`@/\` para imports absolutos:
@@ -166,11 +166,11 @@ import type { User } from '@/types';
 ✅ Tailwind CSS configurado  
 ✅ Responsive design ready  
 
-## ��� Próximos Pasos
+## Próximos Pasos
 
 Ver **[INSTALL.md](INSTALL.md)** para dependencias opcionales recomendadas.
 
-## ��� Ejemplo de Uso
+## Ejemplo de Uso
 
 ```tsx
 import { Button, Card } from '@/components/common';
