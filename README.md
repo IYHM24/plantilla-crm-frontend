@@ -194,4 +194,7 @@ function MyComponent() {
 **¡Happy Coding!** ���
 
 <img width="1904" height="942" alt="image" src="https://github.com/user-attachments/assets/30c3bd43-39e7-4bde-b59c-14bbbb39a9d8" />
+<img width="1918" height="940" alt="image" src="https://github.com/user-attachments/assets/73d8fdda-51e7-4fa2-abf5-56392e0df238" />
+
+
 
