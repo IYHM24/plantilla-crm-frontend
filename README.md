@@ -38,7 +38,7 @@ npm run dev
 -  **TypeScript** - Tipos definidos
 -  **Utilidades** - Format, Validation, Helpers
 
-## ��� Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 src/
