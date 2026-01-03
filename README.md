@@ -1,4 +1,4 @@
-# í¾¯ CRM System - Frontend
+# ï¿½ï¿½ï¿½ CRM System - Frontend
 
 > Sistema CRM profesional construido con React 19, TypeScript, Vite y Tailwind CSS
 
@@ -7,7 +7,7 @@
 [![Vite](https://img.shields.io/badge/Vite-7.2-purple.svg)](https://vitejs.dev)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-cyan.svg)](https://tailwindcss.com)
 
-## íº€ Inicio RÃ¡pido (3 pasos)
+## ï¿½ï¿½ï¿½ Inicio RÃ¡pido (3 pasos)
 
 ```bash
 # 1. Instalar dependencias
@@ -26,19 +26,19 @@ npm run dev
 
 - âš¡ **Vite** - Build tool ultra rÃ¡pido con HMR
 - âš›ï¸ **React 19** - Ãšltima versiÃ³n de React
-- í¾¯ **TypeScript** - Tipado estÃ¡tico para mayor seguridad
-- í¾¨ **Tailwind CSS** - Estilos utilitarios configurados
-- í´ **AutenticaciÃ³n** - Sistema completo con Context API
-- í³Š **Dashboard** - Panel con mÃ©tricas y estadÃ­sticas
-- í±¥ **GestiÃ³n de Clientes** - CRUD completo
-- í¾¯ **Leads & Tasks** - Seguimiento y gestiÃ³n
-- í·© **Componentes** - 9 componentes reutilizables
-- í¾£ **Custom Hooks** - LÃ³gica compartida
-- í³¦ **Servicios API** - Cliente HTTP modular
-- í³ **TypeScript** - Tipos definidos
-- í» ï¸ **Utilidades** - Format, Validation, Helpers
+- ï¿½ï¿½ï¿½ **TypeScript** - Tipado estÃ¡tico para mayor seguridad
+- ï¿½ï¿½ï¿½ **Tailwind CSS** - Estilos utilitarios configurados
+- ï¿½ï¿½ï¿½ **AutenticaciÃ³n** - Sistema completo con Context API
+- ï¿½ï¿½ï¿½ **Dashboard** - Panel con mÃ©tricas y estadÃ­sticas
+- ï¿½ï¿½ï¿½ **GestiÃ³n de Clientes** - CRUD completo
+- ï¿½ï¿½ï¿½ **Leads & Tasks** - Seguimiento y gestiÃ³n
+- ï¿½ï¿½ï¿½ **Componentes** - 9 componentes reutilizables
+- ï¿½ï¿½ï¿½ **Custom Hooks** - LÃ³gica compartida
+- ï¿½ï¿½ï¿½ **Servicios API** - Cliente HTTP modular
+- ï¿½ï¿½ï¿½ **TypeScript** - Tipos definidos
+- ï¿½ï¿½ï¿½ï¸ **Utilidades** - Format, Validation, Helpers
 
-## í³ Estructura del Proyecto
+## ï¿½ï¿½ï¿½ Estructura del Proyecto
 
 ```
 src/
@@ -54,7 +54,7 @@ src/
 â””â”€â”€ config/             # Constants, Environment
 ```
 
-## í·© Componentes Disponibles
+## ï¿½ï¿½ï¿½ Componentes Disponibles
 
 ### Componentes Comunes
 - **Button** - 4 variantes con loading state
@@ -68,7 +68,7 @@ src/
 - **Header** - Barra superior con info de usuario
 - **Sidebar** - NavegaciÃ³n lateral
 
-## í´§ Servicios API
+## ï¿½ï¿½ï¿½ Servicios API
 
 ```typescript
 // AutenticaciÃ³n
@@ -82,7 +82,7 @@ await customerService.update(id, data);
 await customerService.delete(id);
 ```
 
-## í¾£ Custom Hooks
+## ï¿½ï¿½ï¿½ Custom Hooks
 
 ```typescript
 // Hook de autenticaciÃ³n
@@ -95,7 +95,7 @@ const { data, loading, error, refetch } = useFetch(fetchFn);
 const [value, setValue] = useLocalStorage('key', initialValue);
 ```
 
-## í³ Scripts Disponibles
+## ï¿½ï¿½ï¿½ Scripts Disponibles
 
 ```bash
 npm run dev       # Desarrollo (puerto 3000)
@@ -104,7 +104,7 @@ npm run preview   # Preview del build
 npm run lint      # Ejecutar ESLint
 ```
 
-## í³š DocumentaciÃ³n
+## ï¿½ï¿½ï¿½ DocumentaciÃ³n
 
 - **[INSTALL.md](INSTALL.md)** - GuÃ­a completa de instalaciÃ³n
 - **[QUICKSTART.md](QUICKSTART.md)** - Inicio rÃ¡pido de 5 minutos
@@ -113,13 +113,13 @@ npm run lint      # Ejecutar ESLint
 - **[ARCHITECTURE.md](ARCHITECTURE.md)** - Arquitectura del sistema
 - **[STRUCTURE.md](STRUCTURE.md)** - Resumen de archivos creados
 
-## í´’ Variables de Entorno
+## ï¿½ï¿½ï¿½ Variables de Entorno
 
 ```env
 VITE_API_BASE_URL=http://localhost:3000/api
 ```
 
-## í¾¨ TecnologÃ­as
+## ï¿½ï¿½ï¿½ TecnologÃ­as
 
 - **Frontend**: React 19.2, TypeScript 5.9
 - **Build Tool**: Vite 7.2
@@ -129,7 +129,7 @@ VITE_API_BASE_URL=http://localhost:3000/api
 - **ValidaciÃ³n**: Utilidades personalizadas
 - **Formateo**: Intl API
 
-## í³¦ Dependencias Principales
+## ï¿½ï¿½ï¿½ Dependencias Principales
 
 ```json
 {
@@ -141,7 +141,7 @@ VITE_API_BASE_URL=http://localhost:3000/api
 }
 ```
 
-## í» ï¸ ConfiguraciÃ³n
+## ï¿½ï¿½ï¿½ï¸ ConfiguraciÃ³n
 
 ### Path Aliases
 El proyecto usa \`@/\` para imports absolutos:
@@ -152,7 +152,7 @@ import { apiService } from '@/services';
 import type { User } from '@/types';
 ```
 
-## í¾¯ CaracterÃ­sticas Implementadas
+## ï¿½ï¿½ï¿½ CaracterÃ­sticas Implementadas
 
 âœ… Sistema de autenticaciÃ³n completo  
 âœ… GestiÃ³n de clientes (CRUD)  
@@ -166,11 +166,11 @@ import type { User } from '@/types';
 âœ… Tailwind CSS configurado  
 âœ… Responsive design ready  
 
-## íº€ PrÃ³ximos Pasos
+## ï¿½ï¿½ï¿½ PrÃ³ximos Pasos
 
 Ver **[INSTALL.md](INSTALL.md)** para dependencias opcionales recomendadas.
 
-## í³– Ejemplo de Uso
+## ï¿½ï¿½ï¿½ Ejemplo de Uso
 
 ```tsx
 import { Button, Card } from '@/components/common';
@@ -191,4 +191,7 @@ function MyComponent() {
 
 **Â¿Necesitas ayuda?** Revisa la documentaciÃ³n en los archivos \`.md\`
 
-**Â¡Happy Coding!** íº€
+**Â¡Happy Coding!** ï¿½ï¿½ï¿½
+
+<img width="1904" height="942" alt="image" src="https://github.com/user-attachments/assets/30c3bd43-39e7-4bde-b59c-14bbbb39a9d8" />
+
